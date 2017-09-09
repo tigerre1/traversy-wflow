@@ -1,0 +1,50 @@
+.outer-wrapper {
+  min-height:100vh;
+  max-width: $total-width;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+    .header {
+      margin: 0;
+      width: 100%;
+      height:15vh;
+      background: $green;
+    }
+    .menu {
+      margin: 0;
+      width: 100%;
+      height:7vh;
+      background: $yellow;
+    }
+    .content-wrapper {
+      width:$content-width;
+      height:68vh;
+      display:flex;
+      flex-direction: column;
+
+
+          &__left{
+            flex:1;
+            background: $light-green;
+          }
+          .content-mid{
+            flex:2;
+          }
+          .content-right{
+            flex:1;
+            background: $light-green;
+          }
+        }
+
+      @media(min-width: 500px){
+        .content-wrapper{
+          flex-direction: row;
+        }
+      }
+.footer {
+  height:10vh;
+  width: 100%;
+  background: $footer-color;
+}
+}
