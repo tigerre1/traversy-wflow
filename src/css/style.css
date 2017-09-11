@@ -445,7 +445,8 @@ body {
   color: #0066ff;
   margin-bottom: .2rem;
   margin-top: .2rem;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  font-weight: 400; }
 
 .card_text {
   font-family: 'Roboto';
