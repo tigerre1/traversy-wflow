@@ -397,6 +397,60 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif; }
 
+.logo {
+  width: 5rem;
+  height: 5rem;
+  background-color: #000;
+  text-align: center;
+  line-height: .9rem;
+  padding-top: .3rem; }
+
+.logo_text {
+  font-family: 'Sedgwick Ave Display', cursive;
+  color: #fff;
+  font-size: 1.5rem; }
+
+.menu {
+  height: 100%;
+  padding-top: 1.4rem; }
+
+.menu_list {
+  list-style-type: none; }
+
+.menu_list_item {
+  display: inline;
+  margin-right: 30px;
+  background: #000;
+  padding: .6rem 1rem;
+  border-radius: 5px; }
+
+.menu_list_item:hover {
+  background-color: #ccc; }
+
+.menu_list_item_link:active {
+  border: 3px solid #fff; }
+
+.menu_list_item_link {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase; }
+
+.card {
+  background-color: #ccc;
+  margin: 2rem 1rem;
+  border-top: 5px solid #0066ff;
+  padding: 8px; }
+
+.card_title {
+  color: #0066ff;
+  margin-bottom: .2rem;
+  margin-top: .2rem;
+  font-size: 1.4rem; }
+
+.card_text {
+  font-family: 'Roboto';
+  font-size: 1.1rem; }
+
 .outer-wrapper {
   min-height: 100vh;
   max-width: 100%;
@@ -407,11 +461,14 @@ body {
     margin: 0;
     width: 100%;
     height: 15vh;
-    background: #AEC382; }
-  .outer-wrapper .menu {
+    background: #AEC382;
+    padding-top: .65rem;
+    padding-left: 2rem;
+    padding-bottom: .5rem; }
+  .outer-wrapper .menu-container {
     margin: 0;
     width: 100%;
-    height: 7vh;
+    height: 10vh;
     background: #FFDE6F; }
   .outer-wrapper .content-wrapper {
     width: 100%;
