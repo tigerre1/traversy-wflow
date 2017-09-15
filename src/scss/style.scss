@@ -7,3 +7,41 @@
 @import 'holy-grail-setup';
 @import 'photo-card';
 @import 'vert-menu';
+.text-block{
+  width: 85%;
+  margin: 0 auto;
+  margin-top:2rem;
+  background-color: #000;
+  padding: .5rem 1.0rem;
+
+
+}
+.text-block-header{
+  font-weight:400;
+  font-size: 1.6em;
+  margin-top:0;
+  color:#fff;
+}
+.text-block-text{
+  color:#fff;
+}
+
+.alert{
+  height: 50px;
+  background: green;
+  color: #fff;
+  text-align: center;
+  width: 85%;
+  margin: 1rem auto;
+  border-radius: 5px;
+  display:flex;
+  justify-content:center;
+}
+.header-text{
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing:2px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
