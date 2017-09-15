@@ -1,7 +1,8 @@
 
 .card {
 background-color: #ccc;
-margin: 2rem 1rem;
+width: 85%;
+margin: 2rem auto;
 border-top: 5px solid #0066ff;
 padding: .6rem;
 padding-top:.2rem;
@@ -16,5 +17,5 @@ margin-top:0;
 }
 .card_text {
   font-family: 'Roboto';
-  font-size: 1.0rem;
+  font-size: .8rem;
 }

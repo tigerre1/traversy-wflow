@@ -1,0 +1,24 @@
+.media-card{
+  width: 85%;
+  height:200px;
+  margin:0 auto;
+  display:flex;
+  align-items: flex-start;
+  background-color: #c99;
+  padding:10px;
+}
+.media-card-body{
+    flex:2;
+}
+.media-card-image{
+  margin-top:.5rem;
+  margin-right: 1rem
+}
+.media-card-text{
+  font-size: .83rem;
+}
+.media-card-heading{
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top:.45rem
+}

@@ -11,6 +11,9 @@
   font-family:'Roboto';
   text-align:center;
   padding:5px;
-  border: 1px solid #fff;
+  margin-bottom:.3rem;
   font-size: 1.2rem
+}
+.vert-menu-item:hover  {
+  border-top: 5px solid blue;
 }
